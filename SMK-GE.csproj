@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SMK_GE</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>SMK-ge.ico</ApplicationIcon>
+    <Authors>SioN</Authors>
+    <Description>Move ghost between save files</Description>
+    <PackageProjectUrl>siontea.com</PackageProjectUrl>
+    <PackageIcon>SMK-ge.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SMK-ge.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Pictures\SMK-ge.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
